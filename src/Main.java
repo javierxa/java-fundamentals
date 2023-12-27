@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     /* Method Declaration
      the main method is the start
@@ -7,6 +9,7 @@ public class Main {
      args [] variable name
     */
     public static void main(String[] x) {
+        Scanner scanner = new Scanner(System.in);
 
         // type of variable + name of variable = variable
         // primitive types start with lowercase
@@ -16,10 +19,12 @@ public class Main {
       char myX = 'X';
       boolean myTrue = true;
 
-      String myName = "Xavier";
-      if(myName == "Xavier"){
+      System.out.println("Type yo name: ");
+      String myName = scanner.nextLine();
+      if(myName.equals("Xavier")){
           System.out.println("nice");
       } else System.out.println("bad");
+
 
       // for loop
       for (int i = 0;i < myInt; i++){
@@ -40,9 +45,8 @@ public class Main {
         // stay on line 41 -_-
         Constructor.myDog();
 
-
         Constructor Mavis = new Constructor();
-        System.out.println(Mavis.age + Mavis.name);
+        System.out.println(Mavis.name + " is " + Mavis.age);
 
     }
 }
