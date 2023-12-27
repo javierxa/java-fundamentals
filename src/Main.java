@@ -11,13 +11,12 @@ public class Main {
         // type of variable + name of variable = variable
         // primitive types start with lowercase
         // you can't call a method on a primitive variable
-      int myInt = 7;
+        int myInt = 7;
       double myDecimal = 9.9;
       char myX = 'X';
       boolean myTrue = true;
 
       String myName = "Xavier";
-
       if(myName == "Xavier"){
           System.out.println("nice");
       } else System.out.println("bad");
@@ -36,8 +35,9 @@ public class Main {
         Cat myCat = new Cat();
         myCat.age = 2;
         myCat.name = "Lucy";
-
         System.out.println(myCat.age);
 
+
+        Constructor.myDog();
     }
 }
