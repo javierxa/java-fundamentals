@@ -25,14 +25,11 @@ public class Main {
           System.out.println("nice");
       } else System.out.println("bad");
 
-
-      // for loop
-      for (int i = 0;i < myInt; i++){
-          System.out.println(i);
-      }
-
+      for (int i = 0; i < myInt; i++) {
+                System.out.println(i);
+            }
       // prints above variable
-        System.out.println(myInt);
+
 
       // calling a method from class Cat
         Cat.lucy();
