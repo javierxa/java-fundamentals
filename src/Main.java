@@ -37,7 +37,12 @@ public class Main {
         myCat.name = "Lucy";
         System.out.println(myCat.age);
 
-
+        // stay on line 41 -_-
         Constructor.myDog();
+
+
+        Constructor Mavis = new Constructor();
+        System.out.println(Mavis.age + Mavis.name);
+
     }
 }

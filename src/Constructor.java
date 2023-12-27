@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class Constructor {
 
+    String name = "Mavis";
+    int age = 4;
+
 
     //This is a constructor that I am calling on line 41 in Main.java
     public static void myDog() {
